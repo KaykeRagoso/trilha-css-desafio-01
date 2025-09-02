@@ -1,6 +1,7 @@
 :root{
     --cor-principal: #33A8DB;
     --cor-segundaria: #FFFFFF;
+    --cor-terciaria: #252525;
 }
 *{
     margin: 0px;
@@ -21,11 +22,67 @@ body{
     width: 50%;
     padding-left: 25vw;
     margin: 5px;
-
 }
 button{
     background-color: #000000;
     color: var(--cor-principal);
     padding: 10px 30px 10px 30px;
     border: 1px solid #33A8DB;
+    text-transform: uppercase;
+}
+
+main{
+    text-align: center;
+}
+#course-content{
+    width: 50%;
+    padding-left: 25vw;
+    margin: 5px;
+}
+#course-content h2{
+    color: var(--cor-principal);
+    text-transform: uppercase;
+}
+#course-content p{
+    color: var(--cor-segundaria);
+    margin: 5px;
+}
+
+.module{
+    background-color: var(--cor-terciaria);
+    margin: 10px;
+    border-radius: 10px;
+    height: 3vh;
+    color: var(--cor-segundaria);
+}
+.module span{
+    color: var(--cor-principal);
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--cor-principal);
+    height: 15vh;
+    text-align: center;
+
+}
+footer img{
+    max-width: 80%;
+}
+footer p {
+    color: var(--cor-segundaria);
+    padding-top: 5px;
+}
+footer a {
+    color: var(--cor-principal);
+    text-decoration: none;
 }
