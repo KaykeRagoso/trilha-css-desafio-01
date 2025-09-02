@@ -1,0 +1,31 @@
+:root{
+    --cor-principal: #33A8DB;
+    --cor-segundaria: #FFFFFF;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+}
+.banner{
+    text-align: center;
+}
+.banner-content h1{
+    color: var(--cor-principal);
+    text-transform: uppercase;
+}
+.banner-content p{
+    color: var(--cor-segundaria);
+    width: 50%;
+    padding-left: 25vw;
+    margin: 5px;
+
+}
+button{
+    background-color: #000000;
+    color: var(--cor-principal);
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #33A8DB;
+}
