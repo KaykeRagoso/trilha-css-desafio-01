@@ -1,6 +1,6 @@
 :root{
     --cor-principal: #33A8DB;
-    --cor-segundaria: #FFFFFF;
+    --cor-secundaria: #FFFFFF;
     --cor-terciaria: #252525;
 }
 *{
@@ -18,7 +18,7 @@ body{
     text-transform: uppercase;
 }
 .banner-content p{
-    color: var(--cor-segundaria);
+    color: var(--cor-secundaria);
     width: 50%;
     padding-left: 25vw;
     margin: 5px;
@@ -29,6 +29,7 @@ button{
     padding: 10px 30px 10px 30px;
     border: 1px solid #33A8DB;
     text-transform: uppercase;
+    margin-bottom: 5vh;
 }
 
 main{
@@ -53,18 +54,34 @@ main{
     margin: 10px;
     border-radius: 10px;
     height: 3vh;
-    color: var(--cor-segundaria);
+    color: var(--cor-secundaria);
 }
 .module span{
     color: var(--cor-principal);
 }
 
-
-
-
-
-
-
+#transform-world{
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+    width: 20vw;
+    padding-left: 15vw;
+    padding-top: 5vh;
+}
+#professional-challenges{
+    margin-top: 1.25vh;
+}
+#professional-challenges h2{
+    color: var(--cor-principal);
+    text-transform: uppercase;
+}
+#professional-challenges p{
+    color: var(--cor-secundaria);
+    margin-bottom: 10vh;
+    width: 50%;
+    padding-left: 25vw;
+    margin-top: 5vh;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -79,7 +96,7 @@ footer img{
     max-width: 80%;
 }
 footer p {
-    color: var(--cor-segundaria);
+    color: var(--cor-secundaria);
     padding-top: 5px;
 }
 footer a {
